@@ -9,7 +9,10 @@
 
 #import <XCTest/XCTest.h>
 
-@import LayoutTestBase;
+
+#import "LayoutTestBase.h"
+#import "FBSnapshotTestCase.h"
+//@import LayoutTestBase;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -24,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
  It's also recommended that you create your own subclass of this for your own project, and have all your other tests subclass this class. This allows you to
  add and remove features in the future. There is a category which lists some methods you may want to consider overriding.
  */
-@interface LYTLayoutTestCase : XCTestCase
+@interface LYTLayoutTestCase : FBSnapshotTestCase
 
 /**
  If you have a view which purposefully overlaps another view, you can add that view to this set to avoid failing the test. You should do this in the 

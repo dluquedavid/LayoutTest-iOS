@@ -8,7 +8,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
 import Foundation
-import LayoutTestBase
+
 
 /**
 This class defines a basic XCTestCase subclass which implements multiple layout test helpers. It's recommended that your layout tests subclass this class.

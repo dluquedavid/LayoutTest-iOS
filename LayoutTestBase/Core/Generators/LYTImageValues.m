@@ -9,6 +9,8 @@
 
 #import "LYTImageValues.h"
 
+#import "LayoutTestBase.h"
+
 @implementation LYTImageValues
 
 - (NSArray *)values {
