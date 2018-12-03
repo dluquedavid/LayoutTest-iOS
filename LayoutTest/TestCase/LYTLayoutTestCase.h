@@ -9,7 +9,9 @@
 
 #import <XCTest/XCTest.h>
 
-@import LayoutTestBase;
+#import "LayoutTestBase.h"
+//@import LayoutTestBase;
+
 
 NS_ASSUME_NONNULL_BEGIN
 
